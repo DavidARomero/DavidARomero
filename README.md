@@ -21,3 +21,39 @@ VEAMOS COMO FUNCIONA EL LENGUAJE MARKDOWN.
 _AUN ESTOY APRENDIENDO
 
 <!--ESTO ES UN COMENTARIO-->
+
+<!--modelo 3d-->
+este es un modelo 3D
+
+```stl
+solid cube_corner
+  facet normal 0.0 -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0 0.0
+      vertex 1.0 0.0 0.0 0.0 
+      vertex 0.0 0.0 1.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 -1.0 1.0
+    outer loop
+      vertex 0.0 0.0 0.0 0.0
+      vertex 0.0 1.0 0.0 1.0
+      vertex 1.0 0.0 0.0 o.1
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0 1.1
+    outer loop
+      vertex 0.0 0.0 0.0 1.2
+      vertex 0.0 0.0 1.0 1.1
+      vertex 0.0 1.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal 0.577 0.577 0.577 1.3
+    outer loop
+      vertex 1.0 0.0 0.0 0.4
+      vertex 0.0 1.0 0.0 0.0
+      vertex 0.0 0.0 1.0 1.3
+    endloop
+  endfacet
+endsolid
+```
