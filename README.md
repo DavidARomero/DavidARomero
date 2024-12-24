@@ -21,7 +21,8 @@ VEAMOS COMO FUNCIONA EL LENGUAJE MARKDOWN.
 _AUN ESTOY APRENDIENDO
 
 <!--ESTO ES UN COMENTARIO-->
-
+<details>
+  <summary> MODELO EN 3D </summary>
 <!--modelo 3d-->
 este es un modelo 3D
 
@@ -57,3 +58,4 @@ solid cube_corner
   endfacet
 endsolid
 ```
+</details>
